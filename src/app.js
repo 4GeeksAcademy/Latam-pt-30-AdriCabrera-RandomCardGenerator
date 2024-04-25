@@ -10,6 +10,7 @@ window.onload = function() {
   if (randomSuit === "♦" || randomSuit === "♥") {
     document.querySelector("#top-suit").style.color = "red";
     document.querySelector("#bottom-suit").style.color = "red";
+    document.querySelector("#number").style.color = "red";
   }
   document.querySelector("#top-suit").innerHTML = randomSuit;
   document.querySelector("#number").innerHTML = generateRandomNumber();
